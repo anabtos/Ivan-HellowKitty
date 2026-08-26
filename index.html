@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hello Kitty World 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CORAÇÕES -->
+    <div id="hearts-container"></div>
+
+    <!-- MENU -->
+    <header class="navbar">
+
+        <div class="logo">
+            🎀 Hello Kitty
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#personagens">Personagens</a>
+            <a href="#favoritos">Favoritos</a>
+            <a href="#galeria">Galeria</a>
+        </nav>
+
+        <button id="themeButton" class="theme-button">
+            🌙
+        </button>
+
+    </header>
+
+
+    <!-- INÍCIO -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <span class="small-title">
+                    🎀 Bem-vinda ao mundo da fofura!
+                </span>
+
+                <h1>
+                    Hello <span>Kitty</span>
+                    <br>
+                    World
+                </h1>
+
+                <p>
+                    Um cantinho cor-de-rosa feito para quem ama
+                    fofura, amizade, carinho e muitos lacinhos! 💕
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#sobre" class="primary-button">
+                        Conhecer 🎀
+                    </a>
+
+                    <button id="surpriseButton" class="secondary-button">
+                        Surpresa! ✨
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-character">
+
+                <div class="sparkle sparkle-1">✦</div>
+                <div class="sparkle sparkle-2">✧</div>
+                <div class="sparkle sparkle-3">♡</div>
+
+                <div class="kitty-circle">
+
+                    <div class="kitty-face">
+
+                        <div class="ear left-ear"></div>
+                        <div class="ear right-ear"></div>
+
+                        <div class="eye left-eye"></div>
+                        <div class="eye right-eye"></div>
+
+                        <div class="nose"></div>
+
+                        <div class="whisker w1"></div>
+                        <div class="whisker w2"></div>
+                        <div class="whisker w3"></div>
+
+                        <div class="whisker w4"></div>
+                        <div class="whisker w5"></div>
+                        <div class="whisker w6"></div>
+
+                        <div class="bow">
+                            <div class="bow-left"></div>
+                            <div class="bow-center"></div>
+                            <div class="bow-right"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section">
+
+            <div class="section-title">
+
+                <span>💗 Conheça</span>
+
+                <h2>
+                    Sobre a Hello Kitty
+                </h2>
+
+                <p>
+                    Uma personagem que conquistou gerações!
+                </p>
+
+            </div>
+
+
+            <div class="about-container">
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        🎀
+                    </div>
+
+                    <h3>
+                        Quem é ela?
+                    </h3>
+
+                    <p>
+                        Hello Kitty é uma personagem criada pela
+                        Sanrio. Ela é conhecida por seu famoso laço,
+                        sua fofura e sua personalidade amigável.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        💕
+                    </div>
+
+                    <h3>
+                        Amizade
+                    </h3>
+
+                    <p>
+                        Para a Hello Kitty, a amizade é uma das
+                        coisas mais importantes da vida. Ela adora
+                        passar tempo com seus amigos!
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        🍎
+                    </div>
+
+                    <h3>
+                        Coisas favoritas
+                    </h3>
+
+                    <p>
+                        Ela gosta de fazer doces, ouvir música,
+                        viajar, conhecer lugares novos e passar
+                        momentos especiais com sua família.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PERSONAGENS -->
+        <section id="personagens" class="section pink-section">
+
+            <div class="section-title">
+
+                <span>🌸 Os amiguinhos</span>
+
+                <h2>
+                    Personagens
+                </h2>
+
+                <p>
+                    Conheça alguns dos personagens mais queridos!
+                </p>
+
+            </div>
+
+
+            <div class="characters">
+
+                <div class="character-card">
+
+                    <div class="character-image kitty-color">
+                        🎀
+                    </div>
+
+                    <h3>
+                        Hello Kitty
+                    </h3>
+
+                    <p>
+                        Amigável, carinhosa e cheia de fofura.
+                    </p>
+
+                    <button onclick="characterMessage('Hello Kitty')">
+                        Saber mais 💕
+                    </button>
+
+                </div>
+
+
+                <div class="character-card">
+
+                    <div class="character-image melody-color">
+                        🐰
+                    </div>
+
+                    <h3>
+                        My Melody
+                    </h3>
+
+                    <p>
+                        Doce, delicada e uma grande amiga.
+                    </p>
+
+                    <button onclick="characterMessage('My Melody')">
+                        Saber mais 💕
+                    </button>
+
+                </div>
+
+
+                <div class="character-card">
+
+                    <div class="character-image kuromi-color">
+                        😈
+                    </div>
+
+                    <h3>
+                        Kuromi
+                    </h3>
+
+                    <p>
+                        Divertida, determinada e cheia de atitude.
+                    </p>
+
+                    <button onclick="characterMessage('Kuromi')">
+                        Saber mais 💕
+                    </button>
+
+                </div>
+
+
+                <div class="character-card">
+
+                    <div class="character-image cinnamoroll-color">
+                        ☁️
+                    </div>
+
+                    <h3>
+                        Cinnamoroll
+                    </h3>
+
+                    <p>
+                        Um cachorrinho fofo que adora voar.
+                    </p>
+
+                    <button onclick="characterMessage('Cinnamoroll')">
+                        Saber mais 💕
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAVORITOS -->
+        <section id="favoritos" class="section">
+
+            <div class="section-title">
+
+                <span>🍓 Um pouquinho dela</span>
+
+                <h2>
+                    Coisas favoritas
+                </h2>
+
+            </div>
+
+
+            <div class="favorites">
+
+                <div class="favorite">
+                    <div>🍓</div>
+                    <h3>Morangos</h3>
+                    <p>Docinhos e deliciosos!</p>
+                </div>
+
+                <div class="favorite">
+                    <div>🧁</div>
+                    <h3>Doces</h3>
+                    <p>Especialmente cupcakes.</p>
+                </div>
+
+                <div class="favorite">
+                    <div>🎹</div>
+                    <h3>Música</h3>
+                    <p>Momentos tranquilos e divertidos.</p>
+                </div>
+
+                <div class="favorite">
+                    <div>🌸</div>
+                    <h3>Flores</h3>
+                    <p>Principalmente as delicadas.</p>
+                </div>
+
+                <div class="favorite">
+                    <div>🐱</div>
+                    <h3>Amigos</h3>
+                    <p>Estar perto de quem ama.</p>
+                </div>
+
+                <div class="favorite">
+                    <div>🎀</div>
+                    <h3>Laços</h3>
+                    <p>Seu acessório mais famoso!</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERIA -->
+        <section id="galeria" class="section gallery-section">
+
+            <div class="section-title">
+
+                <span>📸 Momentos fofos</span>
+
+                <h2>
+                    Galeria
+                </h2>
+
+                <p>
+                    Clique nas imagens para uma surpresa!
+                </p>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <div class="gallery-item" onclick="galleryMessage('🎀 Um dia cheio de fofura!')">
+                    <span>🎀</span>
+                    <p>Laços</p>
+                </div>
+
+                <div class="gallery-item" onclick="galleryMessage('🍓 Morangos são perfeitos!')">
+                    <span>🍓</span>
+                    <p>Morangos</p>
+                </div>
+
+                <div class="gallery-item" onclick="galleryMessage('🌸 Flores deixam tudo mais bonito!')">
+                    <span>🌸</span>
+                    <p>Flores</p>
+                </div>
+
+                <div class="gallery-item" onclick="galleryMessage('🧁 Hora do docinho!')">
+                    <span>🧁</span>
+                    <p>Doces</p>
+                </div>
+
+                <div class="gallery-item" onclick="galleryMessage('💌 Uma cartinha para você!')">
+                    <span>💌</span>
+                    <p>Cartinhas</p>
+                </div>
+
+                <div class="gallery-item" onclick="galleryMessage('💗 Espalhe amor por onde passar!')">
+                    <span>💗</span>
+                    <p>Amor</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARTINHA -->
+        <section class="letter-section">
+
+            <div class="letter">
+
+                <div class="letter-icon">
+                    💌
+                </div>
+
+                <h2>
+                    Uma mensagem para você
+                </h2>
+
+                <p id="letterText">
+                    Clique no botão para abrir sua cartinha!
+                </p>
+
+                <button onclick="openLetter()">
+                    Abrir cartinha 💗
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE -->
+        <section class="quote-section">
+
+            <div class="quote">
+                <span>❝</span>
+
+                <h2 id="quoteText">
+                    Espalhe amor, gentileza e fofura por onde passar. 🎀
+                </h2>
+
+                <button onclick="newQuote()">
+                    Nova frase ✨
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" onclick="closeModal()">
+                ×
+            </button>
+
+            <div id="modalEmoji">
+                💕
+            </div>
+
+            <h2 id="modalTitle">
+                Olá!
+            </h2>
+
+            <p id="modalText">
+                Seja bem-vinda!
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            🎀 Hello Kitty World
+        </div>
+
+        <p>
+            Feito com muito amor 💗
+        </p>
+
+        <div class="footer-hearts">
+            ♡ ♡ ♡ ♡ ♡
+        </div>
+
+        <p class="copyright">
+            © 2026 • Hello Kitty Fan Page
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
